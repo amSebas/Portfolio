@@ -9,7 +9,12 @@
 body{
   font-family: 'Roboto', sans-serif;
   background-color: #547286;
-  font-size: 100px;
+}
+
+.sections{
+  margin-left: 20rem;
+  padding: 6rem 4rem;
+  color: #FFF;
 }
 
 

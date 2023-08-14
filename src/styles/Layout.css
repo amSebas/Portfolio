@@ -35,6 +35,7 @@
     font-size: 22px;
     left: 10px;
     border-bottom: 1px solid black;
+    transition: all .4s;
 }
 
 

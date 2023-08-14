@@ -4,8 +4,9 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
-import Services from './components/Services';
+import ServiceCard from './components/ServiceCard';
 import Portfolio from './components/Portfolio';
+import Error from './components/Error';
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<section className="sections"> <Home /> </section>}/>
             <Route path="AboutMe" element={<section className="sections"><AboutMe /></section>}/>
-            <Route path="Services" element={<section className="sections"> <Services /></section>}/>
+            <Route path="Services" element={<section className="sections"> <ServiceCard /></section>}/>
             <Route path="Portfolio" element={<section className="sections"> <Portfolio /> </section>}/>
+            <Route path='*' element={Error}/>
           </Route>
         </Routes>
       </main>

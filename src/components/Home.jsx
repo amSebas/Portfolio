@@ -3,7 +3,7 @@ import CV1 from '../images/CV1.png'
 
 export default function Home () {
     return(
-        <div className='home'>
+        <div className='Primary-heading'>
             <h1>Home</h1>
             <div className='box-1'>
                 <div className='text-box'>
@@ -13,11 +13,11 @@ export default function Home () {
                         node.js y conocimiento de metodologias agiles.
                     </h3>
                     <a className='btn' href='./AboutMe'>Mas acerca de mi</a>
-                    <a className='btn' href='/'>Descargar cv</a>
+                    <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar cv</a>
                     <div className='social-media'>
                         <a href='/'><i className="fa-brands fa-linkedin"></i></a>
-                        <a href='/'><i className="fa-brands fa-github"></i></a>
-                        <a href='/'><i className="fa-brands fa-whatsapp"></i></a>
+                        <a href='https://github.com/amSebas'><i className="fa-brands fa-github"></i></a>
+                        <a href='https://api.whatsapp.com/send?phone=573228010388&text=hola%2C%20me%20interesa%20contratar%20tus%20servicios'><i className="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div className='photo-presentation'>

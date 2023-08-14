@@ -17,6 +17,20 @@ body{
   color: #FFF;
 }
 
+.Primary-heading {
+  position: relative;
+  left: 50px;
+  animation:slide-left 0.6s linear both
+}
+
+@keyframes slide-left{
+  0% {
+    transform:translateX(0)
+  }
+  100% {transform:translateX(-50px)
+  }
+}
+
 .Primary-heading h1{
   font-size: 40px;
   font-weight: 800;
@@ -29,7 +43,7 @@ body{
   width: 6rem;
   background-color: #fff;
   position: absolute;
-  top: 9rem;
+  top: 3rem;
 }
 
 .Primary-heading::after{
@@ -38,7 +52,6 @@ body{
   width: 3rem;
   background-color: #fff;
   position: absolute;
-  top: 10rem;
-  left: 24rem;
+  top: 4rem;
 }
 

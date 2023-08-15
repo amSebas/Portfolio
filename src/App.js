@@ -19,7 +19,7 @@ function App() {
             <Route path="AboutMe" element={<section className="sections"><AboutMe /></section>}/>
             <Route path="Services" element={<section className="sections"> <ServiceCard /></section>}/>
             <Route path="Portfolio" element={<section className="sections"> <Portfolio /> </section>}/>
-            <Route path='*' element={Error}/>
+            <Route path='*' element={<section className="sections"> <Error /> </section>}/>
           </Route>
         </Routes>
       </main>

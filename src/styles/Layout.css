@@ -37,5 +37,55 @@
     transition: all .4s;
 }
 
+@media ( max-width: 815px) {
+    .navigation{
+        width: 15rem;
+        padding: 6rem 3rem;
+    }
+}
+
+@media ( max-width: 735px) {
+    .navigation{
+        flex-direction: row;
+        align-items: center;
+        width: 100vw;
+        height: 6rem;
+        top: 90%;
+        padding: 0;
+    }
+    .navigation a{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 495px){
+    .navigation a{
+        font-size: 15px;
+    }
+
+    .nativation.active, .div-box:hover{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px){
+    .navigation{
+        top: 95%;
+        height: 3rem;
+    }
+    .navigation a{
+        font-size: 8px;
+    }
+
+    .nativation.active, .div-box:hover{
+        font-size: 12px;
+    }
+
+    .sections{
+        padding: 1rem;
+    }
+
+}
+
 
 

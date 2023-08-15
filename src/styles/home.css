@@ -49,4 +49,41 @@
 .photo-presentation img{
     max-width: 350px;
     border-radius: 50%;
-    box-shadow: #00000050 8px 8px;}
+    box-shadow: #00000050 8px 8px;
+}
+
+@media (max-width: 1350px){
+    .photo-presentation{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1150px){
+    .box-1{
+        flex-direction: column-reverse;
+    }
+    .photo-presentation{
+        display: flex;
+        justify-content: center;
+    }
+    .photo-presentation img{
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 495px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+    .social-media{
+        padding: 0 0 20px 0;
+        margin: 0 0 20px 0;
+    }
+}

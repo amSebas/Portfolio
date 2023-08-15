@@ -12,8 +12,10 @@ export default function Home () {
                     <h3>Como desarrollador front-end me especializo en crear sitios web dinamicos y responsivos haciendo uso de herramientas como HTML5, CSS3, JavaScript,Figma, librerias como react.js,
                         node.js y conocimiento de metodologias agiles.
                     </h3>
-                    <a className='btn' href='./AboutMe'>Mas acerca de mi</a>
-                    <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar cv</a>
+                    <div className='buttons'>
+                        <a className='btn' href='./AboutMe'>Mas acerca de mi</a>
+                        <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar cv</a>
+                    </div>
                     <div className='social-media'>
                         <a href='/'><i className="fa-brands fa-linkedin"></i></a>
                         <a href='https://github.com/amSebas'><i className="fa-brands fa-github"></i></a>

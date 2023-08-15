@@ -45,27 +45,6 @@
     margin: 0 0 20px 0;
 }
 
-.details::before{
-    content: "";
-    height: 27%;
-    width: 3px;
-    background-color: black;
-    position: absolute;
-    bottom: -12rem;
-    left: 24.5rem;
-}
-
-.details::after{
-    content: "";
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    background-color: black;
-    position: absolute;
-    bottom: 3rem;
-    left: 24.2rem;
-}
-
 .year{
     display: flex;
 }
@@ -74,11 +53,15 @@
     margin-right: 10px;
 }
 
-
-
 .experience h3 {
     padding: 20px;
     color: black;
     background-color: #9CBBCF;
     border-radius: 10px;
+}
+
+@media ( max-width: 500px ) {
+    .information-box.grid{
+        grid-template-columns: 1fr;
+    }
 }

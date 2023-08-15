@@ -55,3 +55,20 @@ body{
   top: 4rem;
 }
 
+@media (max-width: 815px ) {
+  .sections{
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 735px ) {
+  .sections{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px ) {
+  .sections{
+    padding: 2rem;
+  }
+}

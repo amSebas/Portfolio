@@ -3,7 +3,7 @@ import '../styles/Layout.css'
 
 export default function() {
     return (
-        <div>
+        <div className="body-grid">
           <nav className="navigation">
             <NavLink to="/"> 
               <div className="div-box">

@@ -1,5 +1,4 @@
 import '../styles/aboutMe.css'
-import Check from '../images/check.gif'
 
 export default function AboutMe () {
     return(
@@ -11,7 +10,7 @@ export default function AboutMe () {
                 de errores en su sitio web o agregar más características a sus sitios web. Puedo 
                 convertir su diseño deseado en trabajo real según su requisito. Pondré todo mi empeño y dedicacion 
                 para asegurar el 100% de satisfacción, entrega rápida y servicios de calidad. 
-                Trabajar conmigo significa trabajar en un ambiente relajado y amistoso, 
+                Trabajar conmigo significa trabajar en un ambiente relajado y amistoso.
                 Creatividad, Competencia Profesional y responsabilidad, son las palabras clave que describen mi trabajo.
             </h3>
             <div className='information-box grid'>
@@ -104,4 +103,4 @@ export default function AboutMe () {
             </div>
         </div>  
     );
-}
+};

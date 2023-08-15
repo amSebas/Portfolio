@@ -17,7 +17,7 @@ export default function Home () {
                         <a className='btn' href='https://drive.google.com/file/d/13MnaIhoQS_gSZBMarazLKBejmPArHey4/view?usp=sharing'>Descargar cv</a>
                     </div>
                     <div className='social-media'>
-                        <a href='/'><i className="fa-brands fa-linkedin"></i></a>
+                        <a href='https://www.linkedin.com/in/juan-sebastian-mendez-rodriguez-b0b505265/'><i className="fa-brands fa-linkedin"></i></a>
                         <a href='https://github.com/amSebas'><i className="fa-brands fa-github"></i></a>
                         <a href='https://api.whatsapp.com/send?phone=573228010388&text=hola%2C%20me%20interesa%20contratar%20tus%20servicios'><i className="fa-brands fa-whatsapp"></i></a>
                     </div>
